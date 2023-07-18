@@ -133,14 +133,114 @@ margin-bottom: 24px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 120px;
     
 }
 .banner-content{
 }
 .banner-image{
-   
 }
 .banner-image img{
+}
+/* main section starts here */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+/* funny section styles start here */
+.funny-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+}
+.funny-title-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+}
+.funny-image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+}
+.image-item{
+    margin-left: 15px;
+}
+.funny-description{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+/* online section starts here */
+.online-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid blue;
    
 }
 
+.relative-image{
+    position: relative;
+    bottom: 240px;
+    left: 520px;
+}
+.online-content{
+    max-width: 40%;
+    margin-bottom: 260px;
+}
+.online-content-title{
+    color: #0B0223;
+    font-size: 48px;
+}
+.play-games{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-description{
+    color: #534C64;
+    font-size: 18px;
+}
+/* game section starts here */
+.game-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    gap: 13px;
+    height: 50vh;
+}
+.game-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+.games-name h4{
+    color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+font-family: Work Sans;
+}
+.games-name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 50px;
+    background: #FFF;
+    width:280px ;
+    height: 80px;
+}
