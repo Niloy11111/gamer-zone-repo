@@ -259,9 +259,9 @@ border:1px solid #FF42A5;
 footer{
     background: #0B0223;  
     height: 50vh;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 .nav-logo {
 justify-content: center;
