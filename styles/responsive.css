@@ -121,3 +121,20 @@ footer{
 }
 
 }
+
+
+
+
+@media screen and (min-width:577px) and (max-width:900px) {
+    
+    header{
+       
+    }
+    nav,.nav-contact{
+        flex-direction: column;
+    }
+    nav{
+      max-width: 100%;
+      justify-content: center;
+    }
+}
