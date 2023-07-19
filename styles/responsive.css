@@ -1,0 +1,125 @@
+@media screen and (max-width:576px) {
+    nav,.nav-contact{
+        flex-direction: column;
+    }
+    .follow-up-icon{
+        margin-bottom:70px;
+    }
+    .banner-container,.online-section{
+        flex-direction: column-reverse;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .funny-image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .online-content{
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .online-main-image{
+    width: 100%;
+    }
+.relative-image{
+    
+}
+.relative-image img{
+   width: 100%;
+}
+.game-section{
+    margin-top: 50px;
+}
+.game-section-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 15px;
+    height: 50vh;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+}
+.games-name h4{
+font-size: 12px;
+}
+.game-name img{  
+}
+.game-name {
+    gap: 10px;
+    border-radius: 50px;
+}
+footer{
+    margin-top: 50px;
+    height: 90vh;
+}
+.nav-logo {
+    justify-content: center;
+    margin-top: 0px;
+    }
+    .footer-contact {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+    }
+.footer-contact li{
+        
+    }
+.footer-contact li{
+    list-style: none;
+    margin-right:25px;
+    color: #FFF;
+    font-size: 15px;
+}
+.fotter-amer{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.social-icon a{
+    margin-right: 40px;
+    font-size: 35px;
+    color: #FFFFFF;
+   }
+   .social-icon{
+       display: flex;
+       justify-content: center;
+       margin-top: 30px;
+       margin-right:0px;
+   }
+   .privacy-container li{
+    margin-right: 25px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    list-style: none;
+}
+.privacy-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.privacy-container {
+    flex-direction: column;
+    justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+}
+.address p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;   
+    display: flex;
+    justify-content: center;
+}
+.address{
+    margin-top: 28px;
+}
+.address ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+}

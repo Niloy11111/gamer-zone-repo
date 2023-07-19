@@ -7,7 +7,6 @@ body{
 /* header section styles start here */
 header{
     background: #FFF;
-    border: 1px solid red;
 }
 
 /* nav section styles start here */
@@ -146,6 +145,7 @@ margin-bottom: 24px;
 main{
     width: 80%;
     margin: 0 auto;
+    
 }
 /* funny section styles start here */
 .funny-title{
@@ -187,14 +187,16 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid blue;
    
 }
-
-.relative-image{
+.online-image-container{
     position: relative;
-    bottom: 240px;
-    left: 520px;
+    
+}
+.relative-image{
+    position: absolute;
+    top:400px;
+    left: 500px;
 }
 .online-content{
     max-width: 40%;
@@ -218,12 +220,14 @@ main{
 .game-section{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     gap: 13px;
-    height: 50vh;
+    margin-top: 170px;
+    
 }
 .game-section-container{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    height: 50vh;
     width: 80%;
     margin: 0 auto;
     justify-content: center;
@@ -241,6 +245,77 @@ font-family: Work Sans;
     gap: 16px;
     border-radius: 50px;
     background: #FFF;
-    width:280px ;
-    height: 80px;
+}
+.games-name:hover{ 
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border:1px solid #FF42A5;
+}
+/* footer section styles start here */
+footer{
+    background: #0B0223;  
+    height: 50vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.nav-logo {
+justify-content: center;
+}
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.footer-contact ul{
+    display: flex;
+}
+.footer-contact li{
+    list-style: none;
+    margin-right:60px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.social-icon a{
+ margin-right: 43px;
+ font-size: 35px;
+ color: #FFFFFF;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+.privacy-container li{
+    margin-right: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    list-style: none;
+}
+.privacy-container ul{
+    display: flex;
+}
+.privacy-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.address li{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;   
+    display: flex;
+    justify-content: center;
+}
+.address ul{
+    display: flex;
+    justify-content: center;
+}
+.address{
+    margin-top: 28px;
 }
