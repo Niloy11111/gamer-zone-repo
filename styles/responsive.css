@@ -8,17 +8,39 @@
     .banner-container,.online-section{
         flex-direction: column-reverse;
     }
+    .banner-content{
+        margin-top: 70px;
+    }
     .banner-image img{
         width: 100%;
     }
+    .btn-sign{
+        padding: 15px 25px; 
+        margin-left: 20px;
+     }
+     .btn-go{
+        padding: 15px 25px; 
+        margin-left: 10px;
+     }
     .funny-image-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .online-section{
+        margin-top: 0px;
+    }
     .online-content{
-        max-width: 90%;
+        max-width: 78%;
         margin-bottom: 30px;
     }
 
+    .image-item img{
+        width: 100%;
+    }
+
+    main{
+        width: 90%;
+        margin: 0 auto;   
+    }
     .online-main-image{
     width: 100%;
     }
@@ -35,8 +57,7 @@
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: 15px;
-    height: 50vh;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     justify-content: center;
     align-content: center;
@@ -44,7 +65,9 @@
 .games-name h4{
 font-size: 12px;
 }
-.game-name img{  
+.game-name img{ 
+    /* width: 40px;
+    height: 40px; */
 }
 .game-name {
     gap: 10px;
@@ -54,23 +77,19 @@ footer{
     margin-top: 50px;
     height: 90vh;
 }
-.nav-logo {
-    justify-content: center;
-    margin-top: 0px;
+
+.footer-nav {
+    margin-left:0px;
+    
     }
     .footer-contact {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-right: 30px;
+      margin-right: 35px;
     }
 .footer-contact li{
-        
-    }
-.footer-contact li{
-    list-style: none;
     margin-right:25px;
-    color: #FFF;
     font-size: 15px;
 }
 .fotter-amer{
@@ -79,26 +98,15 @@ footer{
     font-weight: 700;
 }
 .social-icon a{
-    margin-right: 40px;
-    font-size: 35px;
-    color: #FFFFFF;
+    margin-right: 30px;
    }
    .social-icon{
-       display: flex;
-       justify-content: center;
        margin-top: 30px;
        margin-right:0px;
    }
    .privacy-container li{
     margin-right: 25px;
-    color: rgba(255, 255, 255, 0.60);
     font-size: 12px;
-    list-style: none;
-}
-.privacy-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
 }
 .privacy-container {
     flex-direction: column;
@@ -106,20 +114,10 @@ footer{
       align-items: center;
       margin-right: 30px;
 }
-.address p{
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 12px;   
-    display: flex;
-    justify-content: center;
-}
-.address{
-    margin-top: 28px;
-}
 .address ul{
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-right: 35px;
+    margin-top: 0px;
 }
 
 }

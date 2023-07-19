@@ -144,8 +144,8 @@ margin-bottom: 24px;
 /* main section starts here */
 main{
     width: 80%;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
+    background: #FFF; 
 }
 /* funny section styles start here */
 .funny-title{
@@ -221,6 +221,7 @@ main{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     gap: 13px;
     margin-top: 170px;
+    background: #FFF;
     
 }
 .game-section-container{
@@ -266,17 +267,24 @@ footer{
 .nav-logo {
 justify-content: center;
 }
+.fotter-amer{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
 .footer-contact {
     display: flex;
+    gap:0px;
     justify-content: center;
     margin-top: 0px;
 }
 .footer-contact ul{
     display: flex;
+    margin-right: -35px;    
 }
 .footer-contact li{
     list-style: none;
-    margin-right:60px;
+    margin-right:50px;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
@@ -290,21 +298,23 @@ justify-content: center;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-right: 45px;
+    margin-left:10px;
 }
 .privacy-container li{
-    margin-right: 60px;
+    margin-right: 50px;
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     list-style: none;
 }
 .privacy-container ul{
     display: flex;
+    margin-right: -30px;
 }
 .privacy-container{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    margin-right: 10px;
 }
 .address li{
     color: rgba(255, 255, 255, 0.60);
