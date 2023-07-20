@@ -336,14 +336,20 @@ justify-content: center;
 }
 .watch-now{
     position: absolute; 
-    top: 40%;
-    left: 50%; 
+    top: 33%;
+    left: 35%; 
     opacity: 0; 
     transition: opacity 0.3s ease;  
 }
 .watch-now i{
-    font-size: 35px;
-    color: white;  
+    font-size: 18px;
+    color: white;
+    margin-left:40px; 
+    margin-bottom: 10px;
+    color:black; 
+    background-color: white;
+    padding:10px 12px;
+    border-radius:40px;
 }
 .watch-now span{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -355,7 +361,7 @@ justify-content: center;
     margin-right: 20px;
 }
 .watch-item:hover img{
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 .watch-item:hover .watch-now{
     opacity: 1;
